@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color:white;
+  text-align : center;
+}
+.heading{
+    margin-top: 5rem;
+}
+.outline{
+    background-color: rgb(67, 133, 240);;
+    position: absolute;
+    border-radius: 20px;
+    top: 10rem;
+    left: 35rem;
+    height: 37rem;
+    width: 25rem;
+}
+.output{
+    margin: 6px 3px 3.5px 3px ;
+    width: 90%;
+    text-align: right;
+    margin-left: 10px;
+    margin-top: 3rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    background-color: #F3FAE1;
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.5) inset;
+}
+.container{
+    margin-top: 3rem;
+    background-color: white;
+     height: 26rem;
+     border-radius: 1rem;
+     border: 3px solid rgb(1, 2, 69);
+}
+.press{
+    padding-top: 10px;
+    height: 24rem ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    grid-gap: 8px;
+    place-items: center;
+
+
+}
+.box,.operator,.resetBtn{
+    height: 70px;
+    width: 70px;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) inset;
+    font-size: 2rem ;
+    color:#DE5DD4;
+    background-color:#C0C0C0;
+    cursor: pointer;
+    
+  }
+  #btnC{
+    background-color: red;
+  }
+  .operator{
+    background-color: rgb(74, 71, 71);
+  }

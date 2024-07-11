@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.all{
+ height: 210rem;
+ width: 100%;
+ overflow-x: hidden;
+ background-image: linear-gradient(to top right,white, rgba(255, 192, 203, 0.495));
+ padding: 20px;
+}
+.outline{
+  width: 75rem;
+  height: 213rem;
+  position: absolute;
+  top: 0.1rem;
+  left: 8rem;
+  border: 2px solid black;
+  background-color: white;
+}
+.brandName,
+    .great-vibes-regular {
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4rem;
+        margin-left: 2rem;
+        display: inline;
+      }
+      .navbar{
+        display: inline-block;
+        position: absolute;
+        right: 60px;
+        top: 30px;
+        font-size: 1.1rem;
+     
+      }
+      .navbar a{
+        margin-right: 10px;
+        text-decoration: none;
+        color: black;
+        overflow: hidden;
+      }
+      .navbar a:hover{
+        border: 2px solid black;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+      }
+      .Search-icon{
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      .Search-icon:hover {
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      }
+      .cart-icon{
+        display: inline-block;
+        margin-right: 10px;
+        
+      }
+      .cart-icon:hover{
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      }
+      .bg-style{
+        height: 33rem;
+        width: 22rem;
+        background-color: pink;
+        opacity: 0.35;
+        left: 3.2rem;
+        position: absolute;
+        top: 7rem;
+      }
+      .pic1{
+        background-image: url("pic1.jpg");
+        background-size: cover;
+        height: 33rem;
+        width: 22rem;
+        left: 9rem;
+        position: absolute;
+        top: 15rem;
+      }
+      .pic1::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 50%; 
+        width: 2px; 
+        background-color: pink; 
+        padding: 2rem;
+        opacity: 0.85;
+      }
+      .catchy{
+        height: 20rem;
+        width: 30rem;
+        display: inline-block;
+        position: absolute;
+        left: 28rem;
+        top: 32rem;
+      }
+       .catchy-line,.allura-regular {
+        font-family: "Allura", cursive;
+        font-weight: 400;
+        font-style: normal;
+        display: inline-block;
+        font-size: 4.5rem;
+      }
+      .pic2{
+        background-image: url("pic2.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 14rem;
+        right: 21rem;
+        height: 200px;
+        width: 200px;
+        overflow-x: hidden;
+      }
+      .bg-style2{
+        position: absolute;
+        top: 20rem;
+        right: 12rem;
+        height: 200px;
+        background-color: pink;
+        opacity: 0.5;
+        width: 200px;
+      }
+      .pic3{
+        background-image: url("pic3.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 29rem;
+        right: 5rem;
+        height: 200px;
+        width: 200px;
+        overflow-x: hidden;
+      }
+      .sales{
+        position: absolute;
+        top: 51rem;
+        height: 20rem;
+        width: 91.5%;
+        border-top: 2px double black;
+        border-bottom: 2px double black;
+        padding: 10px;
+        left: 3rem;
+      }
+      .offer{
+        position: absolute;
+        height: 20rem;
+        width: 100%;
+        background-color: rgb(244, 211, 216);
+        
+      }
+      .pic4{
+       
+        position: absolute;
+        right: 50px;
+        top: 17.5px;
+        opacity: 1;
+        background-image: url(pic4.jpg);
+        background-size: cover;
+        height: 285px;
+        width: 635px;
+      }
+      .pic5{
+        position: absolute;
+        opacity: 1;
+        left: 50px;
+        top: 17.5px;
+        background-image: url(pic5.jpg);
+        background-size: cover;
+        height: 285px;
+        width: 635px;
+      }
+   
+     .discount_offer, .bebas-neue-regular {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    
+          position: absolute;
+          right: 16rem;
+          font-size: 5rem;
+          top: 1.5rem;
+          text-decoration: underline;
+     }
+     .discount_sale{
+      
+            position: absolute;
+            left: 12rem;
+            font-size: 10rem;
+            top: 1.4rem;
+     }
+     /* CONTENT */
+     .content{
+      position: absolute;
+      top: 75rem;
+      height:75rem;
+      width: 100%;
+     }
+     .pic6{
+      background-image: url("pic6.jpg");
+      background-size: cover;
+      height: 350px;
+      width: 250px;
+      position: absolute;
+      right: 9rem;
+      border-right: 2rem solid pink;
+      border-bottom: 2rem solid pink;
+      
+     }
+     .bg3{
+      height: 250px;
+    width: 200px;
+    position: absolute;
+    right: 7rem;
+    border-right: 15px solid rgb(241, 22, 143);
+    border-bottom: 15px solid rgb(241, 22, 146);
+    top: 9rem;
+     }
+     .getbest{
+     
+      font-size: 40px;
+    position: relative;
+    left: 22rem;
+    top: 5rem;
+    font-family:  serif;
+    letter-spacing: 1.5px;
+   
+}
+.shopnow{
+  position: relative;
+  height: 40px;
+  width: 150px;
+  left: 22rem;
+  top: 5rem;
+  background-color: rgb(241, 22, 143);
+  border: none;
+}
+.shopnow:hover{
+  box-shadow: 0 0 10px 5px rgb(241, 22, 143,0.5);
+}
+.pic7{
+  position: absolute;
+    background-image: url(pic7.jpg);
+    height: 250px;
+    width: 250px;
+    top: 25rem;
+    background-size: cover;
+    left: 27rem;
+    z-index: 2;
+}
+     .letter{
+      position: relative;
+      top: 23rem;
+      width: 250px;
+      left: 37rem;
+      display: inline-block;
+     }
+     .bg4{
+     
+      height: 150px;
+    position: absolute;
+    top: 28rem;
+    
+    width: 300px;
+    border: 10px solid rgb(241, 22, 143, 0.5);
+    left: 25rem;
+    z-index: 1;
+     }
+     .pic8{
+      height: 200px;
+      width: 200px;
+      background-image: url(pic8.png);
+      background-size: cover;
+      transform: rotate(335deg);
+      left: 8rem;
+      top: 4rem;
+      position: relative;
+      
+
+     }
+     .pic9{
+      background-image: url(pic9.jpg);
+    height: 400px;
+    width: 250px;
+    top: 45rem;
+    background-size: cover;
+    position: absolute;
+    left: 10rem;
+    border-left: 2rem solid pink;
+    border-bottom: 2rem solid pink;
+     }
+     .bg5{
+      height: 250px;
+    width: 200px;
+    position: absolute;
+    left: 8rem;
+    border-left: 15px solid rgb(241, 22, 143);
+    border-bottom: 15px solid rgb(241, 22, 146);
+    top: 57.5rem;
+     }
+     .collection1,.collection2{
+      font-size: 40px;
+    position: relative;
+    left: 30rem;
+    top: 30rem;
+    font-family: serif;
+    letter-spacing: 1.5px;
+    width: 40rem;
+    border: 0px 2px 2px 2px solid rgb(241, 22, 143);
+     }
+     .collection2{
+      font-size: 60px;
+      text-align: center;
+      width: 35rem;
+      border: 0px 2px 2px 2px solid rgb(241, 22, 143);
+    
+     }
+     .services{
+      height: 25rem;
+      background-color: rgba(255, 192, 203, 0.995);
+     width: 90%;
+      position: absolute;
+      left: 3rem;
+      top: 152rem;
+     
+     }
+     .service-tag, .allura-regular {
+      font-family: "Allura",cursive;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 50px;
+      text-decoration: underline;
+      letter-spacing: 5px;
+      text-align: center;
+
+     }
+    .service-pics{
+      margin-top: 5rem;
+      display: flex;
+      width: 100%;
+      height: 15rem;
+      justify-content: space-evenly;
+    }
+    .service-pics p{
+      background-color: white;
+      bottom: 25px;
+      margin-left: 4.7rem;
+      display: inline-block;
+      position: absolute;
+      border: 2px solid;
+      border-radius: 20px;
+      line-height: 2;
+      letter-spacing: 1px;
+      padding: 3px;
+     
+    
+    }
+    .service-pics p:hover{
+      box-shadow: 0 0 10px 5px rgb(241, 22, 143,0.35);
+    }
+    .pic10{
+      background-image: url("pic10.png");
+      background-size: cover;
+      width: 300px;
+      
+    }
+    .pic11{
+      background-image: url("pic11.webp");
+      background-size: cover;
+      width: 300px;
+    }
+    .pic12{
+      background-image: url("pic12.jpeg");
+      background-size: cover;
+      width: 300px;
+    }
+
+
+
+     .aboutus{
+      height: 25rem;
+      position: absolute;
+      top: 180rem;
+      width: 95%;
+      left: 2rem;
+      border: 2px solid black;
+     }
+     .subpart{
+     
+      width: 53%;
+      height: 25rem;
+      background-color: pink;
+      opacity: 0.35;
+      position: absolute;
+      
+     }
+     .first-line{
+      font-size: 45px;
+      position: absolute;
+      left: 6rem;
+      top: 2rem;
+      font-style: italic;
+     }
+     .second-line{
+      position: absolute;
+    left: 18rem;
+    top: 8rem;
+    text-align: center;
+    font-size: 20px;
+}
+     .foot{
+      height: 80px;
+      width: 100%;
+      background-color: black;
+      color: white;
+      position: absolute;
+      bottom: 0px;
+     }
+     .foot a{
+      position: absolute;
+      font-size: 20px;
+      padding: 5px;
+      left: 47%;
+      width: 105px;
+      color: white;
+      border: 2px solid white;
+      text-decoration: none;
+     }
+     .foot p{
+      text-align: center;
+      font-size: 15px;
+      bottom: 5px;
+      position: absolute;
+      left: 42.5%;
+     }
+     
+    
